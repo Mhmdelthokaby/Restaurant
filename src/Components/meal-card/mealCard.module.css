@@ -1,0 +1,15 @@
+.layerUp {
+       position: absolute;
+       background-color: rgba(255, 255, 255, .6);
+       top: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       cursor: pointer;
+       height: 100%;
+       width: 100%;
+       transition: .75s;
+}
+.mealbox:hover .layerUp {
+       top: 0;
+}
